@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/hexagonal
+    username: root
+    password:
+
+jpa:
+  hibernate:
+    ddl-auto: update
+  showsql: true
+  properties:
+    hibertnate:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+
+appDescription: "Hexagonal structure"
+appVersion: "1.0.0"
