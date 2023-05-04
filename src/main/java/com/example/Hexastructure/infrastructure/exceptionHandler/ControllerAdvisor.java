@@ -11,7 +11,7 @@ import java.util.Map;
 
 @ControllerAdvice
 public class ControllerAdvisor {
-    public static final String MESSAGE = "menssage";
+    public static final String MESSAGE = "message";
 
     @ExceptionHandler(NoDataFoundException.class)
     public ResponseEntity<Map<String,String>> handleNoDataFoundException(
